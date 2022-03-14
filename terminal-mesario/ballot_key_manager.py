@@ -11,14 +11,14 @@ print("=" * 104, "\n")
 # Geração
 print("\nPasso 1: Gerar chave privada do terminal\n")
 
-os.system("openssl genpkey -paramfile pendrive/chave-global.pem -out chave-privada-cabine.pem")
+os.system("openssl genpkey -paramfile pendrive/chave-global.pem -out chave-privada-mesa.pem")
 time.sleep(0.5)
 print(":::::::::: Chave privada gerada")
 
 # Exportação
 print("\nPasso 2: Exportar chave pública do terminal\n")
 
-os.system("openssl pkey -in chave-privada-cabine.pem -pubout -out public_html/chave-publica-cabine.pem")
+os.system("openssl pkey -in chave-privada-mesa.pem -pubout -out public_html/chave-publica-mesa.pem")
 time.sleep(0.5)
 print("--> Chave pública gerada")
 
