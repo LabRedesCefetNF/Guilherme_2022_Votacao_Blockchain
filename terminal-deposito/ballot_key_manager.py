@@ -18,7 +18,7 @@ print(":::::::::: Chave privada gerada")
 # Exportação
 print("\nPasso 2: Exportar chave pública do terminal\n")
 
-os.system("openssl pkey -in chave-privada-cabine.pem -pubout -out public_html/chave-publica-deposito.pem")
+os.system("openssl pkey -in chave-privada-deposito.pem -pubout -out public_html/chave-publica-deposito.pem")
 time.sleep(0.5)
 print("--> Chave pública gerada")
 
