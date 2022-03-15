@@ -21,6 +21,9 @@ f = open("voto", "r")
 voto = f.read()
 voto = voto.strip()
 
+text= "Você escolheu o candidato %s." % voto
+print(text)
+
 # Guardar o voto
 
 bdb = BigchainDB('http://127.0.0.1:9984')
