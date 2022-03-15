@@ -2,7 +2,6 @@
 
 Este é um sistema utilizado como prova de conceito para um hipotético sistema eletrônico de votação política, baseado em blockchain e com a implementação de assinatura cega, com o objetivo de prover maior segurança da informação ao processo eleitoral. O sistema foi desenvolvido como como parte dos requisitos necessários à obtenção do certificado de Bacharel em Sistemas de Informação, do curso de Graduação em Sistemas de Informação, do Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ).
 
-O material de apresentação está disponível em [https://slides.com/lpinto39/deck](https://slides.com/lpinto39/deck).
 
 
 ## Instruções
